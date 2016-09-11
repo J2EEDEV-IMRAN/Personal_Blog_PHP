@@ -1,0 +1,343 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.clear
+{
+	clear: both;
+}
+
+body
+ {
+ font-family: Arial,sans-serif,helvetica; 
+  font-size: 16px;
+  background: #161616; 
+  color: #fff;
+  font-size: 14px;
+}
+input,textarea,select
+{
+   font-family: Arial,sans-serif,helvetica; 
+  font-size: 16px;
+}
+
+/**************************some default start**********************/
+input[type="submit"]    /* submit ,button, <a class="delete">  button er jonno ekahane ekoi style use kora hoeche*/
+{
+  cursor: pointer;
+  background-color: #3d9ccd;
+  color: #fff;
+  border: none;
+  padding: 3px 10px;
+  margin-top: 10px;
+}
+button
+{
+  cursor: pointer;
+  background-color: #3d9ccd;
+  color: #fff;
+  border: none;
+  padding: 3px 10px;
+  margin-top: 10px;
+}
+.delet
+{
+    cursor: pointer;
+  background-color: #3d9ccd;
+  color: #fff;
+  border: none;
+  padding: 3px 10px;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"]
+{
+  line-height: 23px;
+  height: 23px;
+}
+
+input.medium[type="text"],
+input.medium[type="password"]
+{
+  width: 400px;
+}
+input.long[type="text"],
+input.long[type="password"]
+{
+  width: 685px;
+}
+input.short[type="text"],
+input.short[type="password"]
+{
+  width: 200px;
+}
+.error{
+  background:#6b6869; border: 1px solid red; border-radius:4px; padding:3px; color:#0fb5df; "
+}
+.success{
+  background:#6b6869; border: 1px solid #3d9ccd ; border-radius:4px; padding:3px; color:#0fb5df;"
+}
+
+/**************************some default start**********************/
+
+
+
+
+
+/**************************login page start**********************/
+
+
+
+#wraper-login{
+	width: 330px;
+	height: auto;
+	margin: 100px auto 0 auto;
+	background-color: #b5b2b2;
+	padding: 10px;
+
+}
+
+#wraper-login h1
+{
+	font-size: 16px;
+	border-bottom: 1px solid #000;
+	margin-bottom: 20px;
+}
+
+#wraper-login table tr td{
+	padding: 0px 10px;
+
+}
+
+#wraper-login table tr td input[type="text"],
+#wraper-login table tr td input[type="password"]
+{
+width: 200px;
+height: 23px;
+line-height: 23px;	
+}
+
+#wraper-login table tr td input[type="submit"]
+{
+	background-color: #3d9ccd;
+	color: #fff;
+	border: none;
+	padding: 3px 10px;
+	margin-top: 10px;
+
+	
+}
+
+/**************************admin index **********************/
+
+#wraper
+{
+
+ width: 900px;
+ height: auto;
+ margin: 0 auto;
+ border: 1px solid #000;
+ overflow: hidden;
+   background: #000;
+}
+
+#header{
+	width: 900px;
+	height: 80px;
+	 background: #333; 
+
+}
+
+#header h1
+{
+  text-align: center;
+	color: #999;
+	font-size: 28px;
+	font-family: Arial,sans-serif,helvetica;
+  padding: 10px;
+ 
+}
+
+#container{
+   width: 900px;
+   height: auto;
+}
+
+#sidebar{
+  top:60px;
+  width: 200px;
+  height: auto;
+  float: left;
+
+}
+
+#sidebar h2
+{
+font-size: 16px;
+color: #fff;
+background: #333;  
+padding: 5px 10px;
+font-family: Arial,sans-serif,helvetica; 
+  margin-right: 14px;
+margin-top: 10px;
+}
+
+#content
+{
+  width: 683px;
+  height: auto;
+  float: left;
+}
+
+#content h2
+{
+  margin-top: 17px;
+font-size: 16px;
+color: #999;
+border-bottom: 1px solid #fff; 
+font-family: Arial,sans-serif,helvetica;
+}
+#menu >ul{margin: 0px;padding: 0px; list-style: none;}
+#menu >ul >li{height: 54px;}
+#menu >ul>li>a{
+ display: block;
+  width: 148px;
+  padding: 16px 10px;
+  font-size: 16px;
+  font-family: Arial,sans-serif,helvetica;
+}
+
+  #menu
+  {
+   background: #000;
+   border: 1px solid #E1E1E1;
+   padding: 10px 5px;
+   margin-right: 15px;
+  }
+  .style1{
+    background: #000;
+    font-size: 16px;
+    color: #666;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: #E1E1E1 1px solid;
+  }
+    .style2{
+    background: #055F7C;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: #E1E1E1 1px solid;
+    text-align: center;
+  }
+
+
+  /**************************change footer text, manage catefory ,manage tags**********************/
+  table.tbl1
+  {
+    margin-top: 15px;
+  }
+  table.tbl2
+  {
+    margin-top: 15px;
+  }
+  table.tbl2 tr td{
+    padding: 5px;
+    text-align: center;
+  }
+  table.tbl2 tr td a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 2px;
+  }
+  table.tbl2 tr:nth-child(2n+1) td
+  {
+ 
+     background-color: #545152;
+  }
+
+  table.tbl2 tr:nth-child(2n) td
+  {
+      background-color: #b5b2b2;
+    }
+    table.tbl2 tr th{
+     background: #333;  
+      padding: 6px;
+     color: #000;
+      font-weight: bold;
+    }
+
+     /**************************change footer text, manage catefory ,manage tags(confirm alert box)**********************/
+
+
+   #dialogoverlay{
+  display: none;
+  opacity: .5;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #000;
+  width: 100%;
+  z-index: 10;
+}
+#dialogbox{
+   display: none;
+  position: fixed;
+  background:#f9f9f9;
+  border-radius:7px; 
+  padding: 14px;
+  width:500px;
+  z-index: 10;
+}
+#dialogbox > div {   }
+#dialogbox >  #dialogheader{ background: #545152; font-size:19px; padding:10px; color:#CCC; }  
+#dialogbox >  #dialogbody{ background:#b5b2b2;padding:20px;  color:#000; }
+#dialogbox >  #dialogfooter{ background: #545152; padding:10px; text-align:right; }
+
+
+    /**************************manage catefory ,manage tags(fancy box start)**********************/
+
+    div#inline h2
+    {
+      border-bottom: 1px solid #fff ; 
+      color:#000;
+    }
+    /**************************manage catefory ,manage tags (fancy box end)**********************/
+
+
+  /**************************comment approve**********************/
+#comments{
+padding:15px 0 0 17px;
+width:515px;
+float:left;
+display:inline;
+}
+#posts .comment{
+background-image:url(images/dots.gif);
+background-position:bottom left;
+background-repeat:repeat-x;
+padding:20px 0 11px 2px;
+line-height:14px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+float:left;
+border:1px solid white
+}
+.comment span, .avatar span{
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#F17102;
+padding:0px;
+}
+.avatar{
+width:100px;
+font-size:10px;
+}
+#posts .comment p{
+display:block;
+float:left;
+width:410px;
+}
